@@ -1,0 +1,1 @@
+last | awk '/Sat|Sun/ { print $0}' | awk '/\([0-9][2-9]/ {print $0}' | awk '{printf "%-15s %s\n", $1, $10}' | sort -n -u | wc -l >> list.txt

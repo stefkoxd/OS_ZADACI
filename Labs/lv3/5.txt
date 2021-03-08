@@ -1,0 +1,18 @@
+Потребно е да се синхронизира работата на еден бербер. Во одреден момент, берберот може да опслужува само еден клиент, додеката пак во студиото постојат 5 слободни места за чекање. 
+Користете го дадениот код и извршете симулација на сценариото.
+public class BarberShop {
+
+    int waitingCustomers = 0;
+
+    void customerComesIn() throws InterruptedException {
+        // TODO: 3/29/20 Synchronize this method, invoked by a Customer thread
+    }
+
+    void barber() throws InterruptedException {
+        // TODO: 3/29/20 Synchronize this method, invoked by Barber thread 
+    }
+
+    public static void main(String[] args) {
+        // TODO: 3/29/20 Synchronize the scenario
+    }
+}
